@@ -10,19 +10,18 @@ return require('packer').startup(function()
     use {'wbthomason/packer.nvim'}
 
 
-    -- Lazy loading:
-    -- Load on specific commands
+    -- Lazy Loading - on specific commands
     use {
-          'tpope/vim-dispatch', opt = true, 
-          cmd = {'Dispatch', 'Make', 'Focus', 'Start'}
+        'tpope/vim-dispatch', opt = true, 
+        cmd = {'Dispatch', 'Make', 'Focus', 'Start'}
     }
 
 
-    -- LSP config
+    -- LSP Config
     use {'neovim/nvim-lspconfig'}
 
     
-    -- Completion - use either one of this
+    -- Auto Completion - use either one of this
     use {'hrsh7th/nvim-compe'}
     -- use { 'nvim-lua/completion-nvim' }
 
@@ -38,18 +37,19 @@ return require('packer').startup(function()
     use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
     use {'nvim-treesitter/nvim-treesitter-textobjects'}
     use {'nvim-treesitter/playground'}
-    use {'p00f/nvim-ts-rainbow'}
+    -- use {'p00f/nvim-ts-rainbow'}
 
     
     -- Prettification
     use {'junegunn/vim-easy-align'}
     use {'mhartington/formatter.nvim'}
-    use {'luochen1990/rainbow'}
+    -- use {'luochen1990/rainbow'}
+    -- use {'junegunn/rainbow_parentheses.vim'}
 
 
     
     -- Pretty symbols
-    use {'kyazdani42/nvim-web-devicons'}
+    -- use {'kyazdani42/nvim-web-devicons'}
 
 
 
@@ -57,11 +57,12 @@ return require('packer').startup(function()
 
 
     -- Development
-    use {'liuchengxu/vista.vim'}
 
-  
-    -- Colorizer
+
+    -- Colorizer or Colorscheme
     -- use {'norcalli/nvim-colorizer.lua'}
+    -- use {'glepnir/zephyr-nvim'}
+    use {'sainnhe/sonokai'}
   
 
     -- Testing
@@ -77,6 +78,7 @@ return require('packer').startup(function()
     -- use {'kyazdani42/nvim-tree.lua'}
     use {'preservim/nerdtree'}
     use {'ryanoasis/vim-devicons'}
+    use {'Xuyuanp/nerdtree-git-plugin'}
 
 
     -- AirLine
@@ -93,7 +95,7 @@ return require('packer').startup(function()
     -- Writing and note taking
     -- Presentation
     -- Search
-    -- Project mgmt
+    -- Project management
     -- Latex
     -- Neoterm
     -- Better terminal

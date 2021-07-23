@@ -1,6 +1,7 @@
-local utils = require('utils')
-local cmd = vim.cmd
+local g = vim.g
+g.sonokai_style = 'andromeda'
+g.sonokai_enable_italic = 1
+g.sonokai_disable_italic_comment = 1
+g.airline_theme = 'sonokai'
 
--- utils.opt('o', 'termguicolors', true)
--- cmd 'colorscheme onedark'
--- cmd 'colorscheme gruvbox-material'
+vim.cmd 'colorscheme sonokai'

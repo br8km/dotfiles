@@ -34,6 +34,7 @@ wo.scrolloff = 8
 wo.cursorline = false
 
 cmd [[
+set encoding=UTF-8
 set expandtab smarttab shiftround autoindent smartindent smartcase
 set path+=**
 set wildmode=longest,list,full
