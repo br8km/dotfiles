@@ -1,0 +1,12 @@
+-- require('config.colorizer')
+require('config.devicon')
+require('config.telescope')
+require('config.treesitter')
+require('config.compe')
+require('config.colorscheme')
+
+-- require('config.fugitive')
+-- require('config.completion')
+-- require('config.neogit')
+-- require('config.lspkind')
+-- require('config.project')
