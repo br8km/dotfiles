@@ -18,13 +18,11 @@ Dot Files for NeoVim 0.60 Nightly Installation on CentOS 7/8, Require Latest CMa
 `$ nvim --version`
 
 
-### Init Config for NeoVim, Require Latest Tmux
+Init Config for NeoVim, Require Latest Tmux
 
 `$ vi ~/.tmux.conf`
 
 
-##### XShell -> Terminal Type = xterm-256color
-##### note: default-terminal = `$ echo $TERM`
 
 ```
 set-option -sg escape-time 10
@@ -32,59 +30,61 @@ set-option -g focus-events on
 set-option -g default-terminal "tmux-256color"
 set-option -sa terminal-overrides ',tmux-256color:RGB'
 ```
+Notes:
+- XShell -> Terminal Type = `xterm-256color`
+- Default-terminal = `$ echo $TERM`
+- NeoVim Config Path: `~/.config/nvim/`
 
-##### note: NeoVim Config Path: `~/.config/nvim/`
 
-
-### Plugin Management
+Plugin Management
 
 - [packer.nvim](https://github.com/wbthomason/packer.nvim)
 
 `$ git clone https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim`
 
 
-##### Syntax Highlighting
+Syntax Highlighting
 
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 
 
-##### Fuzzy Finder
+Fuzzy Finder
 
 - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 
 
-##### Language Server Protocol
+Language Server Protocol
 
 - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
 - [nvim-lsputils](https://github.com/RishabhRD/nvim-lsputils)
 
 
-##### File System Explorer
+File System Explorer
 
 - [nerdtree](https://github.com/preservim/nerdtree)
 - [nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin)
 
-##### Dev Icons
+Dev Icons
 
 - [vim-devicons](https://github.com/ryanoasis/vim-devicons)
 
 
-##### Auto Pairs
+Auto Pairs
 
 - [auto-pairs](https://github.com/jiangmiao/auto-pairs)
 
 
-##### Rainbow
+Rainbow
 
 - [rainbow_parentheses](https://github.com/junegunn/rainbow_parentheses.vim)
 
 
-##### Color Scheme
+Color Scheme
 
 - [sonokai](https://github.com/sainnhe/sonokai)
 
 
-##### Interface
+Interface
 
 - [vim-airline](https://github.com/vim-airline/vim-airline)
 - [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes)
@@ -92,14 +92,14 @@ set-option -sa terminal-overrides ',tmux-256color:RGB'
 - [vim-signify](https://github.com/mhinz/vim-signify)
 
 
-##### Easy Editing
+Easy Editing
 
 - [vim-surround](https://github.com/tpope/vim-surround)
 - [vim-commentary](https://github.com/tpope/vim-commentary)
 - [vim-easy-align](https://github.com/junegunn/vim-easy-align)
 
 
-## Reference
+Reference
 
 - `https://github.com/neovim/neovim`
 - `https://github.com/rockerBOO/awesome-neovim`
@@ -107,7 +107,7 @@ set-option -sa terminal-overrides ',tmux-256color:RGB'
 - `https://github.com/glepnir/nvim`
 
 
-## More Plugins
+More Plugins
 
 - [nvim-bufferline.lua](https://github.com/akinsho/nvim-bufferline.lua)
 - [dashboard-nvim](https://github.com/glepnir/dashboard-nvim)
