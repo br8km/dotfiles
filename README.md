@@ -1,10 +1,7 @@
 # DOT FILES
 
 
-### Detail: NeoVim 0.60 Nightly Installation on CentOS 7/8
-
-
-### System: CentOS 7/8, Require Latest CMake from `cmake.org`
+Dot Files for NeoVim 0.60 Nightly Installation on CentOS 7/8, Require Latest CMake from `cmake.org`.
 
 `$ yum -y install ninja-build libtool autoconf automake gcc gcc-c++ make pkgconfig unzip patch gettext curl`
 
@@ -95,12 +92,11 @@ set-option -sa terminal-overrides ',tmux-256color:RGB'
 - [vim-signify](https://github.com/mhinz/vim-signify)
 
 
-##### Plugin - Easy Editing
+##### Easy Editing
 
 - [vim-surround](https://github.com/tpope/vim-surround)
 - [vim-commentary](https://github.com/tpope/vim-commentary)
 - [vim-easy-align](https://github.com/junegunn/vim-easy-align)
-
 
 
 ## Reference
@@ -132,5 +128,8 @@ set-option -sa terminal-overrides ',tmux-256color:RGB'
 - [nerdcommenter](https://github.com/preservim/nerdcommenter)
 - [vim-easymotion](https://github.com/easymotion/vim-easymotion)
 - [vim-fugitive](https://github.com/tpope/vim-fugitive)
+
+
+
 
 
