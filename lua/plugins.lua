@@ -9,16 +9,24 @@ return require('packer').startup(function()
     -- Packer can manage itself
     use {'wbthomason/packer.nvim'}
 
+    -- -- Config
+    -- use {
+    --     'dstein64/vim-startuptime',
+    --     cmd = 'StartupTime',
+    --     config = [[vim.g.startuptime_tries = 10]]
+    -- }
 
     -- Lazy Loading - on specific commands
-    use {
-        'tpope/vim-dispatch', opt = true, 
-        cmd = {'Dispatch', 'Make', 'Focus', 'Start'}
-    }
+    -- use {
+    --     'tpope/vim-dispatch', opt = true, 
+    --     cmd = {'Dispatch', 'Make', 'Focus', 'Start'}
+    -- }
 
 
     -- LSP Config
     use {'neovim/nvim-lspconfig'}
+    use {'RishabhRD/popfix'}
+    use {'RishabhRD/nvim-lsputils'}
 
     
     -- Auto Completion - use either one of this
@@ -44,7 +52,7 @@ return require('packer').startup(function()
     use {'junegunn/vim-easy-align'}
     use {'mhartington/formatter.nvim'}
     -- use {'luochen1990/rainbow'}
-    -- use {'junegunn/rainbow_parentheses.vim'}
+    use {'junegunn/rainbow_parentheses.vim'}
 
 
     
@@ -60,9 +68,9 @@ return require('packer').startup(function()
 
 
     -- Colorizer or Colorscheme
+    use {'sainnhe/sonokai'}
     -- use {'norcalli/nvim-colorizer.lua'}
     -- use {'glepnir/zephyr-nvim'}
-    use {'sainnhe/sonokai'}
   
 
     -- Testing
@@ -84,6 +92,12 @@ return require('packer').startup(function()
     -- AirLine
     use {'vim-airline/vim-airline'}
     use {'vim-airline/vim-airline-themes'}
+
+
+    -- Auto Pairs
+    use {'jiangmiao/auto-pairs'}
+
+
 
     -- Debugging
     -- DAP

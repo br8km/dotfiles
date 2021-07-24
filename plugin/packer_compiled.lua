@@ -73,6 +73,14 @@ _G.packer_plugins = {
     loaded = true,
     path = "/root/.local/share/nvim/site/pack/packer/start/formatter.nvim"
   },
+  nerdtree = {
+    loaded = true,
+    path = "/root/.local/share/nvim/site/pack/packer/start/nerdtree"
+  },
+  ["nerdtree-git-plugin"] = {
+    loaded = true,
+    path = "/root/.local/share/nvim/site/pack/packer/start/nerdtree-git-plugin"
+  },
   ["nvim-compe"] = {
     loaded = true,
     path = "/root/.local/share/nvim/site/pack/packer/start/nvim-compe"
@@ -88,18 +96,6 @@ _G.packer_plugins = {
   ["nvim-treesitter-textobjects"] = {
     loaded = true,
     path = "/root/.local/share/nvim/site/pack/packer/start/nvim-treesitter-textobjects"
-  },
-  ["nvim-ts-rainbow"] = {
-    loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/nvim-ts-rainbow"
-  },
-  ["nvim-web-devicons"] = {
-    loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
-  },
-  ["onedark.nvim"] = {
-    loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/onedark.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -117,9 +113,25 @@ _G.packer_plugins = {
     loaded = true,
     path = "/root/.local/share/nvim/site/pack/packer/start/popup.nvim"
   },
+  sonokai = {
+    loaded = true,
+    path = "/root/.local/share/nvim/site/pack/packer/start/sonokai"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/root/.local/share/nvim/site/pack/packer/start/telescope.nvim"
+  },
+  ["vim-airline"] = {
+    loaded = true,
+    path = "/root/.local/share/nvim/site/pack/packer/start/vim-airline"
+  },
+  ["vim-airline-themes"] = {
+    loaded = true,
+    path = "/root/.local/share/nvim/site/pack/packer/start/vim-airline-themes"
+  },
+  ["vim-devicons"] = {
+    loaded = true,
+    path = "/root/.local/share/nvim/site/pack/packer/start/vim-devicons"
   },
   ["vim-dispatch"] = {
     commands = { "Dispatch", "Make", "Focus", "Start" },
@@ -130,6 +142,14 @@ _G.packer_plugins = {
   ["vim-easy-align"] = {
     loaded = true,
     path = "/root/.local/share/nvim/site/pack/packer/start/vim-easy-align"
+  },
+  ["vim-signify"] = {
+    loaded = true,
+    path = "/root/.local/share/nvim/site/pack/packer/start/vim-signify"
+  },
+  ["vim-startify"] = {
+    loaded = true,
+    path = "/root/.local/share/nvim/site/pack/packer/start/vim-startify"
   }
 }
 
