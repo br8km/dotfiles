@@ -105,6 +105,9 @@ return require('packer').startup(function()
     -- Rust
     -- Database
     -- Markdown
+    use {"npxbr/glow.nvim", run = "GlowInstall"}
+    
+
     -- Development settings
     -- Writing and note taking
     -- Presentation
