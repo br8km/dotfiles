@@ -35,6 +35,7 @@ wo.cursorline = false
 
 cmd [[
 set encoding=UTF-8
+set fileformat=unix
 set expandtab smarttab shiftround autoindent smartindent smartcase
 set path+=**
 set wildmode=longest,list,full
