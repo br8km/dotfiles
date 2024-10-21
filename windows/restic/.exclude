@@ -1,0 +1,10 @@
+
+# Test only @ 20241021
+
+__py
+# __legacy
+__Legacy
+
+# CMD
+# `cd d:\source && restic -r "d:\bak\media" backup . --skip-if-unchanged --use-fs-snapshot`
+# `restic -r E:\BakRestic\study restore latest --target "d:\tmp"`
